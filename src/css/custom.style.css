@@ -5,3 +5,18 @@
     background-size: cover;
     background-position:bottom center;
 }
+#service-section .card{
+    width: 22% !important;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    #service-section .card{
+        width: 45% !important;
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #service-section .card{
+        width: 100% !important;
+    }
+}
