@@ -1,0 +1,7 @@
+#hero-section{
+    background-image: url("../img/hero-img.jpg"), linear-gradient(rgba(0, 0, 0, 0.315),rgba(0, 0, 0, 0.315));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom center;
+}
