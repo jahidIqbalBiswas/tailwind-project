@@ -8,6 +8,13 @@
 #service-section .card{
     width: 22% !important;
 }
+/* contact css */
+.contact-img-part{
+    width: 40%;
+}
+.contact-form-part{
+    width: 40%;
+}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
     #service-section .card{
@@ -18,5 +25,12 @@
 @media only screen and (max-width: 600px) {
     #service-section .card{
         width: 100% !important;
+    }
+    .contact-img-part{
+        display: none;
+    }
+    .contact-form-part{
+        width: 100%;
+        padding: 0 10px 0 10px;
     }
 }
